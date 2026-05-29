@@ -34,7 +34,7 @@ A API possui um prefixo global `/api/v1` e esta dividida nos seguintes modulos:
 - `GET /api/v1/users/:uuid`: Busca um usuário especifico pelo ID.
 - `GET /api/v1/users/username/:username`: Busca um usuário pelo nome de acesso.
 - `POST /api/v1/users`: Cria um novo usuário.
-- `PUT  /api/v1/users/:uuid`: Atualiza dados de um usuário.
+- `PUT /api/v1/users/:uuid`: Atualiza dados de um usuário.
 - `DELETE /api/v1/users/:uuid`: Remove um usuário do sistema.
 
 ### Veículos
@@ -42,14 +42,14 @@ A API possui um prefixo global `/api/v1` e esta dividida nos seguintes modulos:
 - `GET /api/v1/vehicles/:uuid`: Busca um veículo pelo ID.
 - `GET /api/v1/vehicles/placa/:placa`: Busca um veículo pela placa.
 - `POST /api/v1/vehicles`: Cadastra um novo veículo (vinculado a um usuário).
-- `PUT / PATCH /api/v1/vehicles/:uuid`: Atualiza os dados do veículo.
+- `PUT /api/v1/vehicles/:uuid`: Atualiza os dados do veículo.
 - `DELETE /api/v1/vehicles/:uuid`: Deleta um veículo.
 
 ### Ocorrências
 - `GET /api/v1/occurrences`: Retorna todas as ocorrências de roubo/furto cadastradas.
 - `GET /api/v1/occurrences/:uuid`: Retorna uma ocorrência específica.
 - `POST /api/v1/occurrences`: Registra uma nova ocorrência vinculada a um veículo.
-- `PUT / PATCH /api/v1/occurrences/:uuid`: Atualiza os dados ou o status da ocorrência.
+- `PUT /api/v1/occurrences/:uuid`: Atualiza os dados ou o status da ocorrência.
 - `DELETE /api/v1/occurrences/:uuid`: Remove o registro da ocorrência.
 
 ### Sistema
