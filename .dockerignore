@@ -1,0 +1,3 @@
+# impede que o Docker copie a pasta node_modules gigante, forçando-o a instalar uma novinha e limpa lá dentro, o que evita vários bugs
+node_modules
+.git
