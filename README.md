@@ -1,6 +1,6 @@
 # API de Gestão de Veiculos Roubados/Furtados - Fatec
 
-Projeto desenvolvido como método de avaliacao para a P2 da disciplina de Programação Web da Fatec. Trata-se de uma RESTful API construída com Node.js e TypeScript para o gerenciamento de usuários, registro de veiculos e controle de ocorrencias (roubos, furtos e recuperações).
+Projeto desenvolvido como método de avaliação para a P2 da disciplina de Programação Web da Fatec. Trata-se de uma RESTful API construída com Node.js e TypeScript para o gerenciamento de usuários, registro de veiculos e controle de ocorrencias (roubos, furtos e recuperações).
 
 ## Requisitos do Projeto Atendidos
 
