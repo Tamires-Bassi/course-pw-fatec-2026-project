@@ -1,6 +1,6 @@
 # API de Gestão de Veiculos Roubados/Furtados - Fatec
 
-Projeto desenvolvido como método de avaliação para a P2 da disciplina de Programação Web da Fatec. Trata-se de uma RESTful API construída com Node.js e TypeScript para o gerenciamento de usuários, registro de veiculos e controle de ocorrencias (roubos, furtos e recuperações).
+Projeto desenvolvido como método de avaliação para a P2 da disciplina de Programação Web da Fatec. Trata-se de uma RESTful API construída com Node.js e TypeScript para o gerenciamento de usuários, registro de veículos e controle de ocorrencias (roubos, furtos e recuperações).
 
 ## Requisitos do Projeto Atendidos
 
@@ -19,7 +19,7 @@ Este projeto contempla todos os requisitos obrigatórios e extras solicitados na
 - **Banco de Dados:** PostgreSQL
 - **ORM:** TypeORM
 - **Validacao de Dados:** Zod
-- **Seguranca:** JSON Web Token (JWT) e Autenticação Criptografada
+- **Segurança:** JSON Web Token (JWT) e Autenticação Criptografada
 - **Infraestrutura:** Docker e Render
 
 ## Estrutura da API (Endpoints)
@@ -29,7 +29,7 @@ A API possui um prefixo global `/api/v1` e esta dividida nos seguintes modulos:
 ### Autenticação
 - `POST /api/v1/auth/login`: Realiza o login do usuário e retorna o Token JWT.
 
-### Usuarios
+### Usuários
 - `GET /api/v1/users`: Retorna todos os usuários cadastrados.
 - `GET /api/v1/users/:uuid`: Busca um usuário especifico pelo ID.
 - `GET /api/v1/users/username/:username`: Busca um usuário pelo nome de acesso.
