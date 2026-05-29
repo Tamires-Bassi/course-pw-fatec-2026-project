@@ -25,7 +25,7 @@ export const AppDataSource = new DataSource({
     // Informando o nome do banco de dados específico onde vamos guardar as nossas tabelas
     database: process.env.DB_NAME || "",
     // Sincronização automática das tabelas do banco com as classes do código
-    synchronize: false, // Usando "false" para o sistema não alterar ou apagar tabelas sozinho
+    synchronize: true, // Usando "true" para o Render criar as tabelas sozinho
     // Dezativando os logs de SQL no console ára não poluir a saída
     logging: false,
     // Dizendo onde estão as entidades do BD
